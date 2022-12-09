@@ -15,21 +15,21 @@
 
 ## About
 
-Welcome to a website I'm building with React! [src](https://www.youtube.com/watch?v=Nl54MJDR2p8)
+Welcome to a website I'm building with React! Work in progress. [src](https://www.youtube.com/watch?v=Nl54MJDR2p8)
 
 ## Tech Stack
 
 - JavaScript
 - Node.js
 - React
-  - Styled Components
+- Styled Components
 - Yarn
 
 ## Links
 
 - [Repository](https://github.com/nrenner0211/smooth-scroll)
 
-- [Deployed](Coming soon!)
+- [Deployed](https://nrenner0211.github.io/smooth-scroll/)
 
 ## Installation
 
