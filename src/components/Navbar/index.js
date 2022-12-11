@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
+
 import { 
     Nav, 
     NavbarContainer, 
@@ -11,7 +12,7 @@ import {
     NavBtn, 
     NavBtnLink } from './NavbarElements';
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
         <>
             <Nav>
@@ -19,7 +20,7 @@ const Navbar = () => {
                     <NavLogo to="/">
                         dolla
                     </NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
@@ -30,7 +31,7 @@ const Navbar = () => {
                             <NavLinks to='services'>Services</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='Discover'>Discover</NavLinks>
+                            <NavLinks to='discover'>Discover</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='signup'>Sign Up</NavLinks>
