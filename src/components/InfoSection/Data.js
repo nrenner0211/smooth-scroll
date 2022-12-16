@@ -12,7 +12,7 @@ export const homeObj1 = {
     description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: { Icon1 },
+    img: Icon1,
     alt: 'Car',
     dark: true,
     primary: true,
@@ -20,7 +20,7 @@ export const homeObj1 = {
 }
 
 export const homeObj2 = {
-    id: 'services',
+    id: 'discover',
     lightBg: true,
     lightText: false,
     lighTextDesc: false,
@@ -29,7 +29,7 @@ export const homeObj2 = {
     description: 'Lorem ipsum solor damet',
     buttonLabel: 'Learn More',
     imgStart: true,
-    img: { Icon2 },
+    img: Icon2,
     alt: 'Piggy Bank',
     dark: false,
     primary: false,
@@ -46,7 +46,7 @@ export const homeObj3 = {
     description: '',
     buttonLabel: 'Start Now',
     imgStart: false,
-    img: { Icon3 },
+    img: Icon3,
     alt: 'Woman',
     dark: false,
     primary: false,
